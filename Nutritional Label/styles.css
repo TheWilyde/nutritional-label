@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 21px;
+}
+
+.label {
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid #111111;
+    width: 350px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cal {
+    font-size:1.8rem;
+}
+
+.facts, .vita-facts{
+    font-size: 0.8rem;
+}
+
+.info {
+    font-size:0.64rem;
+    margin: 5px 6px;
+    text-indent: -10px;
+}
+
+.line {
+    border-bottom: 1px solid #111111;
+    margin: 2px 0;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.large {
+    height: 12px;
+}
+
+.medium {
+    height: 6px;
+}
+
+.large, .medium{
+    background-color: black;
+    margin: 4px 0;
+}
+
+.small-text {
+    font-size: 0.65rem;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.indent {
+    margin-left: 28px;
+}
+.double-indent {
+    margin-left: 56px;
+}
